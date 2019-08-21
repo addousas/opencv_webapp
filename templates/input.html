@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style type="text/css">
+    .card-img-top-complement {
+      width: 20vw;
+      margin: auto;
+    }
+    @media only screen and (max-width: 600px) {
+      .card-img-top-complement {
+        width: 100%;
+      }
+    }
+
+    </style>
+
+  </head>
+  <body class='pr-5 pl-5 pt-5'>
+
+    <script type="text/javascript">
+      var GlobalVariable = {
+        face1Sent: false,
+        face2Sent: false,
+      }
+
+
+    </script>
+    
+
+    <div class="jumbotron">
+      <h1 class="display-4">FaceSwap ... </h1>
+      <p class="lead">This is a simple FaceSwap Appilcation using Python3 OpenCv.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+    <div class='row match-height'>
+      <div class='col-xl-6 col-md-6'>
+        <div class="card">
+          
+          <div class="card-header">
+            Face 1
+          </div>
+          <img src="{{ url_for('static', filename='img/my_pic.jpg') }}" class="card-img-top card-img-top-complement" >
+          <div class="card-body">
+            <h5 class="card-title">Face</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+<form action="/test">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span type="submit" class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+              </div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                <label class="custom-file-label" for="inputGroupFile01">Choose file Yo</label>
+              </div>
+            </div>
+</form>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Face 2
+          </div>
+          <img src="{{ url_for('static', filename='img/my_pic.jpg') }}" class="card-img-top card-img-top-complement" >
+
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+<form action="/test">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span type="submit" class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+              </div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile02" aria-describedby="inputGroupFileAddon02">
+                <label class="custom-file-label" for="inputGroupFile02">Choose file Yo</label>
+              </div>
+            </div>
+
+</form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 mtb-10"> 
+<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
